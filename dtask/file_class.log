@@ -1,0 +1,12 @@
+2024-05-14 20:07:56,733 | INFO | Using func from parent class..
+2024-05-14 20:07:58,913 | INFO | trying to read the file...demo.txt 
+2024-05-14 20:07:58,914 | ERROR | oops you got an error oops the file name is not correct.. check the path of the file
+2024-05-14 20:08:23,149 | INFO | Using func from parent class..
+2024-05-14 20:08:25,530 | INFO | trying to read the file...demo.txt 
+2024-05-14 20:08:25,531 | DEBUG | Successfully read the file...
+2024-05-14 20:08:27,389 | INFO | trying to append the file
+2024-05-14 20:08:35,576 | DEBUG | Data successufully appended
+2024-05-14 20:08:39,854 | INFO | trying to read the file...demo.txt 
+2024-05-14 20:08:39,856 | DEBUG | Successfully read the file...
+2024-05-14 20:08:47,242 | INFO | trying to append the file
+2024-05-14 20:08:58,703 | DEBUG | Data successufully appended

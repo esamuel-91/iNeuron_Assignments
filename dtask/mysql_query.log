@@ -1,0 +1,11 @@
+2024-05-11 10:10:03,360 | INFO | trying to connect to the mysql server
+2024-05-11 10:10:03,360 | INFO | trying to connect to the mysql server
+2024-05-11 10:10:03,360 | INFO | trying to connect to the mysql server
+2024-05-11 10:10:36,712 | INFO | trying to connect to the mysql server
+2024-05-11 10:10:36,712 | INFO | trying to connect to the mysql server
+2024-05-11 10:10:36,712 | INFO | trying to connect to the mysql server
+2024-05-11 10:10:36,712 | INFO | trying to connect to the mysql server
+2024-05-11 10:10:36,730 | ERROR | Unable to connect to the server: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-11 10:10:36,730 | ERROR | Unable to connect to the server: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-11 10:10:36,730 | ERROR | Unable to connect to the server: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+2024-05-11 10:10:36,730 | ERROR | Unable to connect to the server: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)

@@ -1,0 +1,38 @@
+2024-05-15 09:52:13,568 | INFO | Attempting to add the numbers
+2024-05-15 09:52:13,569 | DEBUG | Addition successful
+2024-05-15 09:53:34,606 | INFO | Attempting to add the numbers
+2024-05-15 09:53:34,606 | INFO | Attempting to add the numbers
+2024-05-15 09:53:34,609 | DEBUG | Addition successful
+2024-05-15 09:53:34,609 | DEBUG | Addition successful
+2024-05-15 09:53:42,443 | INFO | Attempting to divide the numbers
+2024-05-15 09:53:42,443 | INFO | Attempting to divide the numbers
+2024-05-15 09:53:42,445 | DEBUG | Division successful
+2024-05-15 09:53:42,445 | DEBUG | Division successful
+2024-05-15 09:54:03,581 | INFO | Attempting to multiply the numbers
+2024-05-15 09:54:03,581 | INFO | Attempting to multiply the numbers
+2024-05-15 09:54:03,584 | DEBUG | Multiplication successful
+2024-05-15 09:54:03,584 | DEBUG | Multiplication successful
+2024-05-15 09:54:19,726 | INFO | Attempting to get the result
+2024-05-15 09:54:19,726 | INFO | Attempting to get the result
+2024-05-15 09:54:19,729 | DEBUG | power multiplication successful
+2024-05-15 09:54:19,729 | DEBUG | power multiplication successful
+2024-05-15 09:55:07,138 | INFO | Attempting to subtract the numbers
+2024-05-15 09:55:07,138 | INFO | Attempting to subtract the numbers
+2024-05-15 09:55:07,141 | DEBUG | Subtraction successful
+2024-05-15 09:55:07,141 | DEBUG | Subtraction successful
+2024-05-15 09:55:35,373 | INFO | Attempting to add the numbers
+2024-05-15 09:55:35,374 | DEBUG | Addition successful
+2024-05-15 09:55:38,447 | INFO | Attempting to divide the numbers
+2024-05-15 09:55:38,449 | DEBUG | Division successful
+2024-05-15 09:55:41,200 | INFO | Attempting to multiply the numbers
+2024-05-15 09:55:41,201 | DEBUG | Multiplication successful
+2024-05-15 09:55:43,557 | INFO | Attempting to get the result
+2024-05-15 09:55:43,558 | DEBUG | power multiplication successful
+2024-05-15 09:55:45,294 | INFO | Attempting to subtract the numbers
+2024-05-15 09:55:45,295 | DEBUG | Subtraction successful
+2024-05-15 09:56:21,972 | INFO | Attempting to add the numbers
+2024-05-15 09:56:21,973 | ERROR | addition failed: Given number is not a number
+2024-05-15 09:57:14,283 | INFO | Attempting to add the numbers
+2024-05-15 09:57:14,284 | DEBUG | Addition successful
+2024-05-15 09:57:19,472 | INFO | Attempting to divide the numbers
+2024-05-15 09:57:19,473 | ERROR | Divison failed: division by zero

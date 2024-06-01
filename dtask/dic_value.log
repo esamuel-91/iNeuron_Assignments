@@ -1,0 +1,4 @@
+2024-05-10 21:45:11,950 | INFO | Trying to add the value to the Dictionary
+2024-05-10 21:45:24,635 | DEBUG | Value added successfully: bread: 5.99
+2024-05-10 21:46:08,592 | INFO | Trying to add the value to the Dictionary
+2024-05-10 21:46:08,593 | ERROR | oops, you got an error: This is not a dic so values can't be added.. [1, 2, 3, 4, 5, 6, 'Sam']

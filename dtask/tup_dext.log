@@ -1,0 +1,14 @@
+2024-05-10 23:25:29,761 | INFO | Analyzing the tuple data
+2024-05-10 23:25:29,762 | DEBUG | Data extracted..
+2024-05-10 23:26:03,873 | INFO | Analyzing the tuple data
+2024-05-10 23:26:03,875 | DEBUG | Data extracted..
+2024-05-10 23:26:13,643 | INFO | Analyzing the tuple data
+2024-05-10 23:26:13,644 | ERROR | oops you got an error: 'RootLogger' object has no attribute 'waring'
+2024-05-10 23:27:05,921 | INFO | Analyzing the tuple data
+2024-05-10 23:27:05,921 | INFO | Analyzing the tuple data
+2024-05-10 23:27:05,923 | WARNING | End point is out of len of tup
+2024-05-10 23:27:05,923 | WARNING | End point is out of len of tup
+2024-05-10 23:28:46,604 | INFO | Analyzing the tuple data
+2024-05-10 23:28:46,604 | INFO | Analyzing the tuple data
+2024-05-10 23:28:46,606 | ERROR | oops you got an error: Given data is not a tuple
+2024-05-10 23:28:46,606 | ERROR | oops you got an error: Given data is not a tuple

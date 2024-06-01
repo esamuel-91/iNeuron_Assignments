@@ -1,0 +1,7 @@
+2024-05-10 20:06:17,070 | INFO | Trying to search for the value in the list
+2024-05-10 20:06:17,071 | DEBUG | Value found
+2024-05-10 20:11:37,608 | INFO | Trying to search for the value in the list
+2024-05-10 20:11:37,609 | DEBUG | Value found
+2024-05-10 20:12:05,334 | INFO | Trying to search for the value in the list
+2024-05-10 20:12:05,335 | ERROR | oops you got an error
+2024-05-10 20:12:05,335 | ERROR | Got an error while searching the list: Value Sneha not found in the list: [1, 2, 3, 4, 5, 6, 'Sam']

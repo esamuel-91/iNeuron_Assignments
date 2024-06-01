@@ -1,0 +1,12 @@
+q1 : Create your own class to perform a list search operation - Done
+q2 : create a class for dict new element addition - Done
+q3 : create a class for tuple data extraction operation - Done
+####q4 : Create a class to implement all insert , update , delete operation for mysql
+q5 : create a class to implement insert , uupdate and delete in monngo db  - Done
+q6 : create a class to perform append and delete operation in a file and inherit it in child class -Done
+q7 : create a class to import a data into file from mongo db - Done
+q8 : Create a class to build a calculator funcnalities addition , subtraction , multiplication ,div , log , exponenet , power - done
+q9 : create a class method to find a time and space complexity of any function
+q10: create a class to do a bulk uplaod of a file in mysql 
+q11: give 10 different example of ploymorphism , encaptulation ,data  abstraction , overloading , ovverriding , multiple inheritance
+q12: Try to explore a meaning of "-> " this sinnature in python 

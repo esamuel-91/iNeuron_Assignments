@@ -1,0 +1,878 @@
+2024-05-15 09:03:58,043 | INFO | trying to export the document
+2024-05-15 09:03:58,044 | INFO | trying to connet to server.. 
+2024-05-15 09:04:06,215 | DEBUG | Connection successful
+2024-05-15 09:04:06,216 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442d2e6b2599d545e272af, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442d2e6b2599d545e272af"}}
+2024-05-15 09:04:06,216 | INFO | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442d2e6b2599d545e272af, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442d2e6b2599d545e272af"}, "remainingTimeMS": 29}
+2024-05-15 09:04:08,618 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:04:08,620 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:04:08,621 | DEBUG | Requesting OCSP data
+2024-05-15 09:04:08,622 | DEBUG | Requesting OCSP data
+2024-05-15 09:04:08,622 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:04:08,622 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:04:08,636 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:04:08,637 | DEBUG | Requesting OCSP data
+2024-05-15 09:04:08,638 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:04:08,877 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:04:08,877 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:04:08,877 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:04:09,000 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:04:09,003 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:04:09,004 | DEBUG | Verifying response
+2024-05-15 09:04:09,005 | DEBUG | Responder is issuer
+2024-05-15 09:04:09,006 | DEBUG | Caching OCSP response.
+2024-05-15 09:04:09,008 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:04:09,014 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:04:09,014 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:04:09,015 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:04:09,016 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:04:09,017 | DEBUG | Verifying response
+2024-05-15 09:04:09,018 | DEBUG | Verifying response
+2024-05-15 09:04:09,019 | DEBUG | Responder is issuer
+2024-05-15 09:04:09,020 | DEBUG | Responder is issuer
+2024-05-15 09:04:09,021 | DEBUG | Caching OCSP response.
+2024-05-15 09:04:09,021 | DEBUG | Caching OCSP response.
+2024-05-15 09:04:09,022 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:04:09,024 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:04:09,064 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442d2e6b2599d545e272af, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.03728933400270762>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.03711658400061424>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.040699458000744926>]>", "clientId": {"$oid": "66442d2e6b2599d545e272af"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:04:12,667 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:04:12,669 | DEBUG | Requesting OCSP data
+2024-05-15 09:04:12,670 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:04:12,671 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:04:12,672 | DEBUG | Using cached OCSP response.
+2024-05-15 09:04:12,673 | DEBUG | Requesting OCSP data
+2024-05-15 09:04:12,675 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:04:12,676 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:04:12,679 | DEBUG | Using cached OCSP response.
+2024-05-15 09:04:12,680 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:04:12,684 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:04:12,685 | DEBUG | Requesting OCSP data
+2024-05-15 09:04:12,686 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:04:12,686 | DEBUG | Using cached OCSP response.
+2024-05-15 09:04:12,686 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:04:12,693 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:04:12,694 | DEBUG | Requesting OCSP data
+2024-05-15 09:04:12,694 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:04:12,695 | DEBUG | Using cached OCSP response.
+2024-05-15 09:04:12,695 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:04:12,833 | DEBUG | {"clientId": {"$oid": "66442d2e6b2599d545e272af"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"dLnUzD2WQkGTUICRUGrSnw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744048, \"i\": 9}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"/idGNFGf1Qsw8lZz9y/iLAyJ08g=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1264817709, "operationId": 1264817709, "driverConnectionId": 1, "serverConnectionId": 22736, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:04:12,873 | DEBUG | {"clientId": {"$oid": "66442d2e6b2599d545e272af"}, "message": "Command succeeded", "durationMS": 39.658, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744052, \"i\": 11}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"o1C4HeGklt/5zX4XWgLX3mCvP7I=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744052, \"i\": 11}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1264817709, "operationId": 1264817709, "driverConnectionId": 1, "serverConnectionId": 22736, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:08:40,349 | INFO | trying to export the document
+2024-05-15 09:08:40,349 | INFO | trying to export the document
+2024-05-15 09:08:40,351 | INFO | trying to connet to server.. 
+2024-05-15 09:08:40,351 | INFO | trying to connet to server.. 
+2024-05-15 09:08:48,508 | DEBUG | Connection successful
+2024-05-15 09:08:48,508 | DEBUG | Connection successful
+2024-05-15 09:08:48,510 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442e486b2599d545e272b0, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442e486b2599d545e272b0"}}
+2024-05-15 09:08:48,510 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442e486b2599d545e272b0, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442e486b2599d545e272b0"}}
+2024-05-15 09:08:48,510 | INFO | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442e486b2599d545e272b0, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442e486b2599d545e272b0"}, "remainingTimeMS": 29}
+2024-05-15 09:08:48,510 | INFO | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442e486b2599d545e272b0, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442e486b2599d545e272b0"}, "remainingTimeMS": 29}
+2024-05-15 09:08:50,849 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:50,849 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:50,852 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:50,852 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:50,855 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:50,856 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:50,855 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:50,856 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:50,859 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:50,859 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:50,862 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:50,862 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:50,866 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:50,866 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:50,868 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:50,868 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:50,871 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:50,871 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:51,006 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:08:51,006 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:08:51,007 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:08:51,007 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:08:51,007 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:08:51,007 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:08:51,080 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:08:51,080 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:08:51,080 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:08:51,082 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:08:51,080 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:08:51,082 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:08:51,083 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:08:51,083 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:08:51,083 | DEBUG | Verifying response
+2024-05-15 09:08:51,083 | DEBUG | Verifying response
+2024-05-15 09:08:51,084 | DEBUG | Verifying response
+2024-05-15 09:08:51,084 | DEBUG | Verifying response
+2024-05-15 09:08:51,085 | DEBUG | Responder is issuer
+2024-05-15 09:08:51,086 | DEBUG | Responder is issuer
+2024-05-15 09:08:51,085 | DEBUG | Responder is issuer
+2024-05-15 09:08:51,087 | DEBUG | Caching OCSP response.
+2024-05-15 09:08:51,086 | DEBUG | Responder is issuer
+2024-05-15 09:08:51,087 | DEBUG | Caching OCSP response.
+2024-05-15 09:08:51,087 | DEBUG | Caching OCSP response.
+2024-05-15 09:08:51,087 | DEBUG | Caching OCSP response.
+2024-05-15 09:08:51,088 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:51,089 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:51,088 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:51,089 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:51,091 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:08:51,091 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:08:51,094 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:08:51,094 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:08:51,094 | DEBUG | Verifying response
+2024-05-15 09:08:51,094 | DEBUG | Verifying response
+2024-05-15 09:08:51,096 | DEBUG | Responder is issuer
+2024-05-15 09:08:51,096 | DEBUG | Responder is issuer
+2024-05-15 09:08:51,097 | DEBUG | Caching OCSP response.
+2024-05-15 09:08:51,097 | DEBUG | Caching OCSP response.
+2024-05-15 09:08:51,099 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:51,099 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:51,132 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442e486b2599d545e272b0, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.03948541700083297>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442e486b2599d545e272b0"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:08:51,132 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442e486b2599d545e272b0, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.03948541700083297>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442e486b2599d545e272b0"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:08:54,971 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:54,971 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:54,974 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:54,974 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:54,976 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:54,976 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:54,979 | DEBUG | Using cached OCSP response.
+2024-05-15 09:08:54,979 | DEBUG | Using cached OCSP response.
+2024-05-15 09:08:54,980 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:54,980 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:54,982 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:54,984 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:54,982 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:54,984 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:54,984 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:54,984 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:54,988 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:54,988 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:54,988 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:54,989 | DEBUG | Using cached OCSP response.
+2024-05-15 09:08:54,988 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:54,990 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:54,989 | DEBUG | Using cached OCSP response.
+2024-05-15 09:08:54,990 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:54,990 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:54,991 | DEBUG | Using cached OCSP response.
+2024-05-15 09:08:54,990 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:54,991 | DEBUG | Using cached OCSP response.
+2024-05-15 09:08:54,992 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:54,992 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:54,995 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:54,995 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:08:54,998 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:54,998 | DEBUG | Requesting OCSP data
+2024-05-15 09:08:54,999 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:54,999 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:08:55,000 | DEBUG | Using cached OCSP response.
+2024-05-15 09:08:55,000 | DEBUG | Using cached OCSP response.
+2024-05-15 09:08:55,002 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:55,002 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:08:55,150 | DEBUG | {"clientId": {"$oid": "66442e486b2599d545e272b0"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"Mx9N3TAbQD6OGzTsd1CCaQ==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744331, \"i\": 6}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"I8wgxkEQ3TrLj4JYhfQf5faX0Mw=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 343098142, "operationId": 343098142, "driverConnectionId": 1, "serverConnectionId": 22858, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:08:55,150 | DEBUG | {"clientId": {"$oid": "66442e486b2599d545e272b0"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"Mx9N3TAbQD6OGzTsd1CCaQ==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744331, \"i\": 6}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"I8wgxkEQ3TrLj4JYhfQf5faX0Mw=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 343098142, "operationId": 343098142, "driverConnectionId": 1, "serverConnectionId": 22858, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:08:55,200 | DEBUG | {"clientId": {"$oid": "66442e486b2599d545e272b0"}, "message": "Command succeeded", "durationMS": 50.156, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744335, \"i\": 6}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"d+sXAukzFrxaOIoRYaM9AipCpj4=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744335, \"i\": 6}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 343098142, "operationId": 343098142, "driverConnectionId": 1, "serverConnectionId": 22858, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:08:55,200 | DEBUG | {"clientId": {"$oid": "66442e486b2599d545e272b0"}, "message": "Command succeeded", "durationMS": 50.156, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744335, \"i\": 6}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"d+sXAukzFrxaOIoRYaM9AipCpj4=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744335, \"i\": 6}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 343098142, "operationId": 343098142, "driverConnectionId": 1, "serverConnectionId": 22858, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:08:55,203 | INFO | Export completed successfully
+2024-05-15 09:08:55,203 | INFO | Export completed successfully
+2024-05-15 09:12:44,147 | INFO | trying to connet to server.. 
+2024-05-15 09:12:44,147 | INFO | trying to connet to server.. 
+2024-05-15 09:12:44,147 | INFO | trying to connet to server.. 
+2024-05-15 09:12:52,300 | DEBUG | Connection successful
+2024-05-15 09:12:52,300 | DEBUG | Connection successful
+2024-05-15 09:12:52,300 | DEBUG | Connection successful
+2024-05-15 09:12:54,811 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:54,811 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:54,811 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:54,815 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:54,815 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:54,815 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:54,818 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:54,818 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:54,818 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:54,827 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:54,827 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:54,827 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:54,829 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:54,829 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:54,829 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:54,831 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:54,831 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:54,831 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:54,844 | INFO | trying to export the document
+2024-05-15 09:12:54,844 | INFO | trying to export the document
+2024-05-15 09:12:54,844 | INFO | trying to export the document
+2024-05-15 09:12:54,846 | INFO | trying to connet to server.. 
+2024-05-15 09:12:54,846 | INFO | trying to connet to server.. 
+2024-05-15 09:12:54,846 | INFO | trying to connet to server.. 
+2024-05-15 09:12:54,968 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:12:54,969 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:12:54,968 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:12:54,969 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:12:54,968 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:12:54,969 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:12:55,023 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:12:55,023 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:12:55,023 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:12:55,026 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:12:55,026 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:12:55,026 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:12:55,027 | DEBUG | Verifying response
+2024-05-15 09:12:55,027 | DEBUG | Verifying response
+2024-05-15 09:12:55,027 | DEBUG | Verifying response
+2024-05-15 09:12:55,029 | DEBUG | Responder is issuer
+2024-05-15 09:12:55,029 | DEBUG | Responder is issuer
+2024-05-15 09:12:55,029 | DEBUG | Responder is issuer
+2024-05-15 09:12:55,031 | DEBUG | Caching OCSP response.
+2024-05-15 09:12:55,031 | DEBUG | Caching OCSP response.
+2024-05-15 09:12:55,031 | DEBUG | Caching OCSP response.
+2024-05-15 09:12:55,033 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:55,033 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:55,033 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:55,037 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:12:55,037 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:12:55,037 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:12:55,039 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:12:55,039 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:12:55,039 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:12:55,041 | DEBUG | Verifying response
+2024-05-15 09:12:55,041 | DEBUG | Verifying response
+2024-05-15 09:12:55,041 | DEBUG | Verifying response
+2024-05-15 09:12:55,043 | DEBUG | Responder is issuer
+2024-05-15 09:12:55,043 | DEBUG | Responder is issuer
+2024-05-15 09:12:55,043 | DEBUG | Responder is issuer
+2024-05-15 09:12:55,045 | DEBUG | Caching OCSP response.
+2024-05-15 09:12:55,045 | DEBUG | Caching OCSP response.
+2024-05-15 09:12:55,045 | DEBUG | Caching OCSP response.
+2024-05-15 09:12:55,046 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:55,046 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:55,046 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:55,064 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:55,064 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:55,064 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:55,066 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:55,066 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:55,066 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:55,066 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:55,066 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:55,066 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:55,067 | DEBUG | Using cached OCSP response.
+2024-05-15 09:12:55,067 | DEBUG | Using cached OCSP response.
+2024-05-15 09:12:55,067 | DEBUG | Using cached OCSP response.
+2024-05-15 09:12:55,069 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:55,069 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:55,069 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:57,254 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:57,254 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:57,254 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:57,257 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:57,257 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:57,257 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:57,258 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:57,258 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:57,258 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:57,260 | DEBUG | Using cached OCSP response.
+2024-05-15 09:12:57,260 | DEBUG | Using cached OCSP response.
+2024-05-15 09:12:57,260 | DEBUG | Using cached OCSP response.
+2024-05-15 09:12:57,262 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:57,262 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:57,262 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:57,266 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:57,266 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:57,266 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:57,268 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:57,268 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:57,268 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:57,269 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:57,269 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:57,269 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:57,271 | DEBUG | Using cached OCSP response.
+2024-05-15 09:12:57,271 | DEBUG | Using cached OCSP response.
+2024-05-15 09:12:57,271 | DEBUG | Using cached OCSP response.
+2024-05-15 09:12:57,273 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:57,273 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:57,273 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:58,815 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:58,815 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:58,815 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:12:58,818 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:58,818 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:58,818 | DEBUG | Requesting OCSP data
+2024-05-15 09:12:58,824 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:58,824 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:58,824 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:12:58,826 | DEBUG | Using cached OCSP response.
+2024-05-15 09:12:58,826 | DEBUG | Using cached OCSP response.
+2024-05-15 09:12:58,826 | DEBUG | Using cached OCSP response.
+2024-05-15 09:12:58,827 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:58,827 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:12:58,827 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:02,988 | DEBUG | Connection successful
+2024-05-15 09:13:02,988 | DEBUG | Connection successful
+2024-05-15 09:13:02,988 | DEBUG | Connection successful
+2024-05-15 09:13:02,990 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}}
+2024-05-15 09:13:02,990 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}}
+2024-05-15 09:13:02,990 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}}
+2024-05-15 09:13:02,991 | INFO | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}, "remainingTimeMS": 29}
+2024-05-15 09:13:02,991 | INFO | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}, "remainingTimeMS": 29}
+2024-05-15 09:13:02,991 | INFO | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}, "remainingTimeMS": 29}
+2024-05-15 09:13:03,092 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,092 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,092 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,094 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,094 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,094 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,096 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,096 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,096 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,097 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,097 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,097 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,099 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,099 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,099 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,100 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:13:03,100 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:13:03,100 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,100 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:13:03,100 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,100 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,103 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:13:03,103 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:13:03,103 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:13:03,113 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,113 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,113 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,114 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,114 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,114 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,115 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,115 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,115 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,117 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:13:03,117 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:13:03,117 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:13:03,127 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:13:03,127 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:13:03,127 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:13:03,129 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:13:03,129 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:13:03,129 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:13:03,130 | DEBUG | Verifying response
+2024-05-15 09:13:03,130 | DEBUG | Verifying response
+2024-05-15 09:13:03,130 | DEBUG | Verifying response
+2024-05-15 09:13:03,131 | DEBUG | Responder is issuer
+2024-05-15 09:13:03,131 | DEBUG | Responder is issuer
+2024-05-15 09:13:03,131 | DEBUG | Responder is issuer
+2024-05-15 09:13:03,133 | DEBUG | Caching OCSP response.
+2024-05-15 09:13:03,133 | DEBUG | Caching OCSP response.
+2024-05-15 09:13:03,133 | DEBUG | Caching OCSP response.
+2024-05-15 09:13:03,134 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,134 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,134 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,142 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:13:03,142 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:13:03,142 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:13:03,142 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:13:03,142 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:13:03,143 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:13:03,143 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:13:03,142 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:13:03,144 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:13:03,143 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:13:03,144 | DEBUG | Verifying response
+2024-05-15 09:13:03,144 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:13:03,144 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:13:03,144 | DEBUG | Verifying response
+2024-05-15 09:13:03,145 | DEBUG | Verifying response
+2024-05-15 09:13:03,145 | DEBUG | Verifying response
+2024-05-15 09:13:03,144 | DEBUG | Verifying response
+2024-05-15 09:13:03,146 | DEBUG | Responder is issuer
+2024-05-15 09:13:03,145 | DEBUG | Verifying response
+2024-05-15 09:13:03,146 | DEBUG | Responder is issuer
+2024-05-15 09:13:03,146 | DEBUG | Responder is issuer
+2024-05-15 09:13:03,146 | DEBUG | Responder is issuer
+2024-05-15 09:13:03,146 | DEBUG | Responder is issuer
+2024-05-15 09:13:03,147 | DEBUG | Caching OCSP response.
+2024-05-15 09:13:03,146 | DEBUG | Responder is issuer
+2024-05-15 09:13:03,147 | DEBUG | Caching OCSP response.
+2024-05-15 09:13:03,147 | DEBUG | Caching OCSP response.
+2024-05-15 09:13:03,147 | DEBUG | Caching OCSP response.
+2024-05-15 09:13:03,147 | DEBUG | Caching OCSP response.
+2024-05-15 09:13:03,148 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,147 | DEBUG | Caching OCSP response.
+2024-05-15 09:13:03,148 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,150 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,150 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,148 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,150 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,192 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0398583750029502>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.039490125000156695>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.04407224999886239>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,192 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0398583750029502>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.039490125000156695>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.04407224999886239>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,192 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0398583750029502>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.039490125000156695>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.04407224999886239>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,285 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,285 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,285 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,288 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,288 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,288 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,291 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,291 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,291 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,292 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,292 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,293 | DEBUG | Using cached OCSP response.
+2024-05-15 09:13:03,292 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,293 | DEBUG | Using cached OCSP response.
+2024-05-15 09:13:03,294 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,293 | DEBUG | Using cached OCSP response.
+2024-05-15 09:13:03,294 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,295 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,295 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,294 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,296 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,295 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,296 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,297 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,296 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,297 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,299 | DEBUG | Using cached OCSP response.
+2024-05-15 09:13:03,297 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,299 | DEBUG | Using cached OCSP response.
+2024-05-15 09:13:03,300 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,299 | DEBUG | Using cached OCSP response.
+2024-05-15 09:13:03,301 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,300 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,300 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,301 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,301 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,303 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,303 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,303 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,305 | DEBUG | Using cached OCSP response.
+2024-05-15 09:13:03,305 | DEBUG | Using cached OCSP response.
+2024-05-15 09:13:03,305 | DEBUG | Using cached OCSP response.
+2024-05-15 09:13:03,306 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,306 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,306 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,311 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,311 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,311 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:13:03,312 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,312 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,312 | DEBUG | Requesting OCSP data
+2024-05-15 09:13:03,313 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,313 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,313 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:13:03,314 | DEBUG | Using cached OCSP response.
+2024-05-15 09:13:03,314 | DEBUG | Using cached OCSP response.
+2024-05-15 09:13:03,314 | DEBUG | Using cached OCSP response.
+2024-05-15 09:13:03,315 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,315 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,315 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:13:03,451 | DEBUG | {"clientId": {"$oid": "66442f466b2599d545e272b2"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"f5vIk0xvSz6FKKHvgi7GAw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744582, \"i\": 9}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"UfKoDJJvo4SAswAssRFVMypijHc=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1567121210, "operationId": 1567121210, "driverConnectionId": 1, "serverConnectionId": 22733, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,451 | DEBUG | {"clientId": {"$oid": "66442f466b2599d545e272b2"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"f5vIk0xvSz6FKKHvgi7GAw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744582, \"i\": 9}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"UfKoDJJvo4SAswAssRFVMypijHc=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1567121210, "operationId": 1567121210, "driverConnectionId": 1, "serverConnectionId": 22733, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,451 | DEBUG | {"clientId": {"$oid": "66442f466b2599d545e272b2"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"f5vIk0xvSz6FKKHvgi7GAw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744582, \"i\": 9}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"UfKoDJJvo4SAswAssRFVMypijHc=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1567121210, "operationId": 1567121210, "driverConnectionId": 1, "serverConnectionId": 22733, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,491 | DEBUG | {"clientId": {"$oid": "66442f466b2599d545e272b2"}, "message": "Command succeeded", "durationMS": 39.903, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"XgqHjd3hrFS+kP5HHRpqYO2TgQY=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1567121210, "operationId": 1567121210, "driverConnectionId": 1, "serverConnectionId": 22733, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,491 | DEBUG | {"clientId": {"$oid": "66442f466b2599d545e272b2"}, "message": "Command succeeded", "durationMS": 39.903, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"XgqHjd3hrFS+kP5HHRpqYO2TgQY=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1567121210, "operationId": 1567121210, "driverConnectionId": 1, "serverConnectionId": 22733, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,491 | DEBUG | {"clientId": {"$oid": "66442f466b2599d545e272b2"}, "message": "Command succeeded", "durationMS": 39.903, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"XgqHjd3hrFS+kP5HHRpqYO2TgQY=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1567121210, "operationId": 1567121210, "driverConnectionId": 1, "serverConnectionId": 22733, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,494 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0398583750029502>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.039490125000156695>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.04407224999886239>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}}
+2024-05-15 09:13:03,494 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0398583750029502>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.039490125000156695>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.04407224999886239>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}}
+2024-05-15 09:13:03,494 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0398583750029502>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.039490125000156695>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.04407224999886239>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}}
+2024-05-15 09:13:03,496 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0398583750029502>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.039490125000156695>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.04407224999886239>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,496 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0398583750029502>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.039490125000156695>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.04407224999886239>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,496 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f466b2599d545e272b2, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0398583750029502>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.039490125000156695>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.04407224999886239>]>", "clientId": {"$oid": "66442f466b2599d545e272b2"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,498 | DEBUG | {"clientId": {"$oid": "66442f466b2599d545e272b2"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"f5vIk0xvSz6FKKHvgi7GAw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"XgqHjd3hrFS+kP5HHRpqYO2TgQY=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1866729662, "operationId": 1866729662, "driverConnectionId": 1, "serverConnectionId": 22733, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,498 | DEBUG | {"clientId": {"$oid": "66442f466b2599d545e272b2"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"f5vIk0xvSz6FKKHvgi7GAw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"XgqHjd3hrFS+kP5HHRpqYO2TgQY=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1866729662, "operationId": 1866729662, "driverConnectionId": 1, "serverConnectionId": 22733, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,498 | DEBUG | {"clientId": {"$oid": "66442f466b2599d545e272b2"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"f5vIk0xvSz6FKKHvgi7GAw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"XgqHjd3hrFS+kP5HHRpqYO2TgQY=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1866729662, "operationId": 1866729662, "driverConnectionId": 1, "serverConnectionId": 22733, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,541 | DEBUG | {"clientId": {"$oid": "66442f466b2599d545e272b2"}, "message": "Command succeeded", "durationMS": 42.736999999999995, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"XgqHjd3hrFS+kP5HHRpqYO2TgQY=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1866729662, "operationId": 1866729662, "driverConnectionId": 1, "serverConnectionId": 22733, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,541 | DEBUG | {"clientId": {"$oid": "66442f466b2599d545e272b2"}, "message": "Command succeeded", "durationMS": 42.736999999999995, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"XgqHjd3hrFS+kP5HHRpqYO2TgQY=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1866729662, "operationId": 1866729662, "driverConnectionId": 1, "serverConnectionId": 22733, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,541 | DEBUG | {"clientId": {"$oid": "66442f466b2599d545e272b2"}, "message": "Command succeeded", "durationMS": 42.736999999999995, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"XgqHjd3hrFS+kP5HHRpqYO2TgQY=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744583, \"i\": 7}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1866729662, "operationId": 1866729662, "driverConnectionId": 1, "serverConnectionId": 22733, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:13:03,543 | INFO | Export completed successfully
+2024-05-15 09:13:03,543 | INFO | Export completed successfully
+2024-05-15 09:13:03,543 | INFO | Export completed successfully
+2024-05-15 09:14:00,719 | INFO | trying to export the document
+2024-05-15 09:14:00,719 | INFO | trying to export the document
+2024-05-15 09:14:00,719 | INFO | trying to export the document
+2024-05-15 09:14:00,724 | INFO | trying to connet to server.. 
+2024-05-15 09:14:00,724 | INFO | trying to connet to server.. 
+2024-05-15 09:14:00,724 | INFO | trying to connet to server.. 
+2024-05-15 09:14:08,886 | DEBUG | Connection successful
+2024-05-15 09:14:08,886 | DEBUG | Connection successful
+2024-05-15 09:14:08,886 | DEBUG | Connection successful
+2024-05-15 09:14:08,888 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}}
+2024-05-15 09:14:08,888 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}}
+2024-05-15 09:14:08,888 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}}
+2024-05-15 09:14:08,889 | INFO | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}, "remainingTimeMS": 29}
+2024-05-15 09:14:08,889 | INFO | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}, "remainingTimeMS": 29}
+2024-05-15 09:14:08,889 | INFO | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}, "remainingTimeMS": 29}
+2024-05-15 09:14:13,990 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:13,990 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:13,992 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:13,992 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:13,990 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:13,996 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:13,992 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:13,996 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:13,996 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:13,996 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:13,996 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:13,999 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:13,996 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:13,999 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:14,001 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:13,999 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:14,001 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:14,001 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:14,009 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:14,009 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:14,009 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:14,012 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:14,012 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:14,012 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:14,014 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:14,014 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:14,014 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:14,126 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:14:14,126 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:14:14,127 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:14:14,127 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:14:14,126 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:14:14,127 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:14:14,127 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:14:14,127 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:14:14,127 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:14:14,203 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:14:14,203 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:14:14,204 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:14:14,203 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:14:14,204 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:14:14,204 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:14:14,204 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:14:14,204 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:14:14,208 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:14:14,211 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:14:14,208 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:14:14,204 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:14:14,213 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:14:14,208 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:14:14,211 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:14:14,211 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:14:14,213 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:14:14,214 | DEBUG | Verifying response
+2024-05-15 09:14:14,213 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:14:14,214 | DEBUG | Verifying response
+2024-05-15 09:14:14,215 | DEBUG | Verifying response
+2024-05-15 09:14:14,215 | DEBUG | Verifying response
+2024-05-15 09:14:14,214 | DEBUG | Verifying response
+2024-05-15 09:14:14,215 | DEBUG | Verifying response
+2024-05-15 09:14:14,215 | DEBUG | Verifying response
+2024-05-15 09:14:14,216 | DEBUG | Responder is issuer
+2024-05-15 09:14:14,215 | DEBUG | Verifying response
+2024-05-15 09:14:14,216 | DEBUG | Responder is issuer
+2024-05-15 09:14:14,215 | DEBUG | Verifying response
+2024-05-15 09:14:14,218 | DEBUG | Responder is issuer
+2024-05-15 09:14:14,216 | DEBUG | Responder is issuer
+2024-05-15 09:14:14,219 | DEBUG | Responder is issuer
+2024-05-15 09:14:14,218 | DEBUG | Responder is issuer
+2024-05-15 09:14:14,219 | DEBUG | Responder is issuer
+2024-05-15 09:14:14,220 | DEBUG | Caching OCSP response.
+2024-05-15 09:14:14,218 | DEBUG | Responder is issuer
+2024-05-15 09:14:14,220 | DEBUG | Caching OCSP response.
+2024-05-15 09:14:14,221 | DEBUG | Caching OCSP response.
+2024-05-15 09:14:14,219 | DEBUG | Responder is issuer
+2024-05-15 09:14:14,221 | DEBUG | Caching OCSP response.
+2024-05-15 09:14:14,221 | DEBUG | Caching OCSP response.
+2024-05-15 09:14:14,220 | DEBUG | Caching OCSP response.
+2024-05-15 09:14:14,221 | DEBUG | Caching OCSP response.
+2024-05-15 09:14:14,221 | DEBUG | Caching OCSP response.
+2024-05-15 09:14:14,222 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:14,223 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:14,222 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:14,221 | DEBUG | Caching OCSP response.
+2024-05-15 09:14:14,223 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:14,222 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:14,224 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:14,223 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:14,224 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:14,224 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:14,267 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.038520750000316184>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.038262083999143215>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.027930709002248477>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:14,267 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.038520750000316184>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.038262083999143215>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.027930709002248477>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:14,267 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.038520750000316184>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.038262083999143215>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.027930709002248477>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,159 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:15,159 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:15,159 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:15,162 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:15,162 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:15,162 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:15,164 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:15,164 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:15,164 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:15,164 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:15,164 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:15,165 | DEBUG | Using cached OCSP response.
+2024-05-15 09:14:15,164 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:15,165 | DEBUG | Using cached OCSP response.
+2024-05-15 09:14:15,167 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:15,165 | DEBUG | Using cached OCSP response.
+2024-05-15 09:14:15,167 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:15,167 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:15,167 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:15,167 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:15,167 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:15,169 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:15,169 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:15,169 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:15,171 | DEBUG | Using cached OCSP response.
+2024-05-15 09:14:15,171 | DEBUG | Using cached OCSP response.
+2024-05-15 09:14:15,171 | DEBUG | Using cached OCSP response.
+2024-05-15 09:14:15,175 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:15,175 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:15,175 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:15,175 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:15,175 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:15,175 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:15,179 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:15,179 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:15,179 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:15,180 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:15,180 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:15,180 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:15,182 | DEBUG | Using cached OCSP response.
+2024-05-15 09:14:15,182 | DEBUG | Using cached OCSP response.
+2024-05-15 09:14:15,182 | DEBUG | Using cached OCSP response.
+2024-05-15 09:14:15,184 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:15,184 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:15,184 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:15,194 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:15,194 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:15,194 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:14:15,195 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:15,195 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:15,195 | DEBUG | Requesting OCSP data
+2024-05-15 09:14:15,196 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:15,196 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:15,196 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:14:15,197 | DEBUG | Using cached OCSP response.
+2024-05-15 09:14:15,197 | DEBUG | Using cached OCSP response.
+2024-05-15 09:14:15,197 | DEBUG | Using cached OCSP response.
+2024-05-15 09:14:15,198 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:15,198 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:15,198 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:14:15,322 | DEBUG | {"clientId": {"$oid": "66442f886b2599d545e272b3"}, "message": "Command started", "command": "{\"find\": \"mongo_test\", \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"GKsROyagQQq9P4MT8TIHJw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744654, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"cTCoJteXnX/zoCSpVdHo/glFeoQ=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"Mongo\"}", "commandName": "find", "databaseName": "Mongo", "requestId": 834991545, "operationId": 834991545, "driverConnectionId": 1, "serverConnectionId": 22876, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,322 | DEBUG | {"clientId": {"$oid": "66442f886b2599d545e272b3"}, "message": "Command started", "command": "{\"find\": \"mongo_test\", \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"GKsROyagQQq9P4MT8TIHJw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744654, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"cTCoJteXnX/zoCSpVdHo/glFeoQ=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"Mongo\"}", "commandName": "find", "databaseName": "Mongo", "requestId": 834991545, "operationId": 834991545, "driverConnectionId": 1, "serverConnectionId": 22876, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,322 | DEBUG | {"clientId": {"$oid": "66442f886b2599d545e272b3"}, "message": "Command started", "command": "{\"find\": \"mongo_test\", \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"GKsROyagQQq9P4MT8TIHJw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744654, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"cTCoJteXnX/zoCSpVdHo/glFeoQ=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"Mongo\"}", "commandName": "find", "databaseName": "Mongo", "requestId": 834991545, "operationId": 834991545, "driverConnectionId": 1, "serverConnectionId": 22876, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,372 | DEBUG | {"clientId": {"$oid": "66442f886b2599d545e272b3"}, "message": "Command succeeded", "durationMS": 49.794, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"663cb277ad50e85a2ffe1423\"}, \"name\": \"Sneha Lohia\", \"age\": 33}], \"ns\": \"Mongo.mongo_test\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"KpMnFOp0hZxCSGeEi5DiHtom9kQ=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}}", "commandName": "find", "databaseName": "Mongo", "requestId": 834991545, "operationId": 834991545, "driverConnectionId": 1, "serverConnectionId": 22876, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,372 | DEBUG | {"clientId": {"$oid": "66442f886b2599d545e272b3"}, "message": "Command succeeded", "durationMS": 49.794, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"663cb277ad50e85a2ffe1423\"}, \"name\": \"Sneha Lohia\", \"age\": 33}], \"ns\": \"Mongo.mongo_test\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"KpMnFOp0hZxCSGeEi5DiHtom9kQ=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}}", "commandName": "find", "databaseName": "Mongo", "requestId": 834991545, "operationId": 834991545, "driverConnectionId": 1, "serverConnectionId": 22876, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,372 | DEBUG | {"clientId": {"$oid": "66442f886b2599d545e272b3"}, "message": "Command succeeded", "durationMS": 49.794, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"663cb277ad50e85a2ffe1423\"}, \"name\": \"Sneha Lohia\", \"age\": 33}], \"ns\": \"Mongo.mongo_test\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"KpMnFOp0hZxCSGeEi5DiHtom9kQ=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}}", "commandName": "find", "databaseName": "Mongo", "requestId": 834991545, "operationId": 834991545, "driverConnectionId": 1, "serverConnectionId": 22876, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,374 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.038520750000316184>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.038262083999143215>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.027930709002248477>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}}
+2024-05-15 09:14:15,374 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.038520750000316184>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.038262083999143215>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.027930709002248477>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}}
+2024-05-15 09:14:15,374 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.038520750000316184>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.038262083999143215>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.027930709002248477>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}}
+2024-05-15 09:14:15,376 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.038520750000316184>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.038262083999143215>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.027930709002248477>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,376 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.038520750000316184>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.038262083999143215>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.027930709002248477>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,376 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66442f886b2599d545e272b3, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.038520750000316184>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.038262083999143215>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.027930709002248477>]>", "clientId": {"$oid": "66442f886b2599d545e272b3"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,379 | DEBUG | {"clientId": {"$oid": "66442f886b2599d545e272b3"}, "message": "Command started", "command": "{\"find\": \"mongo_test\", \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"GKsROyagQQq9P4MT8TIHJw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"KpMnFOp0hZxCSGeEi5DiHtom9kQ=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"Mongo\"}", "commandName": "find", "databaseName": "Mongo", "requestId": 2044747317, "operationId": 2044747317, "driverConnectionId": 1, "serverConnectionId": 22876, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,379 | DEBUG | {"clientId": {"$oid": "66442f886b2599d545e272b3"}, "message": "Command started", "command": "{\"find\": \"mongo_test\", \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"GKsROyagQQq9P4MT8TIHJw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"KpMnFOp0hZxCSGeEi5DiHtom9kQ=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"Mongo\"}", "commandName": "find", "databaseName": "Mongo", "requestId": 2044747317, "operationId": 2044747317, "driverConnectionId": 1, "serverConnectionId": 22876, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,379 | DEBUG | {"clientId": {"$oid": "66442f886b2599d545e272b3"}, "message": "Command started", "command": "{\"find\": \"mongo_test\", \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"GKsROyagQQq9P4MT8TIHJw==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"KpMnFOp0hZxCSGeEi5DiHtom9kQ=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"Mongo\"}", "commandName": "find", "databaseName": "Mongo", "requestId": 2044747317, "operationId": 2044747317, "driverConnectionId": 1, "serverConnectionId": 22876, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,422 | DEBUG | {"clientId": {"$oid": "66442f886b2599d545e272b3"}, "message": "Command succeeded", "durationMS": 43.499, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"663cb277ad50e85a2ffe1423\"}, \"name\": \"Sneha Lohia\", \"age\": 33}, {\"_id\": {\"$oid\": \"663cb342ad50e85a2ffe1426\"}, \"name\": \"Sneha Lohia\", \"age\": 33}], \"ns\": \"Mongo.mongo_test\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"KpMnFOp0hZxCSGeEi5DiHtom9kQ=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}}", "commandName": "find", "databaseName": "Mongo", "requestId": 2044747317, "operationId": 2044747317, "driverConnectionId": 1, "serverConnectionId": 22876, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,422 | DEBUG | {"clientId": {"$oid": "66442f886b2599d545e272b3"}, "message": "Command succeeded", "durationMS": 43.499, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"663cb277ad50e85a2ffe1423\"}, \"name\": \"Sneha Lohia\", \"age\": 33}, {\"_id\": {\"$oid\": \"663cb342ad50e85a2ffe1426\"}, \"name\": \"Sneha Lohia\", \"age\": 33}], \"ns\": \"Mongo.mongo_test\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"KpMnFOp0hZxCSGeEi5DiHtom9kQ=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}}", "commandName": "find", "databaseName": "Mongo", "requestId": 2044747317, "operationId": 2044747317, "driverConnectionId": 1, "serverConnectionId": 22876, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,422 | DEBUG | {"clientId": {"$oid": "66442f886b2599d545e272b3"}, "message": "Command succeeded", "durationMS": 43.499, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"663cb277ad50e85a2ffe1423\"}, \"name\": \"Sneha Lohia\", \"age\": 33}, {\"_id\": {\"$oid\": \"663cb342ad50e85a2ffe1426\"}, \"name\": \"Sneha Lohia\", \"age\": 33}], \"ns\": \"Mongo.mongo_test\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"KpMnFOp0hZxCSGeEi5DiHtom9kQ=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715744655, \"i\": 5}}}", "commandName": "find", "databaseName": "Mongo", "requestId": 2044747317, "operationId": 2044747317, "driverConnectionId": 1, "serverConnectionId": 22876, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:14:15,424 | INFO | Export completed successfully
+2024-05-15 09:14:15,424 | INFO | Export completed successfully
+2024-05-15 09:14:15,424 | INFO | Export completed successfully
+2024-05-15 09:59:10,788 | ERROR | No such comm target registered: jupyter.widget.control
+2024-05-15 09:59:10,788 | ERROR | No such comm target registered: jupyter.widget.control
+2024-05-15 09:59:10,788 | ERROR | No such comm target registered: jupyter.widget.control
+2024-05-15 09:59:10,791 | WARNING | No such comm: ce04cf68-1e23-45d6-b223-a5de91ba43f9
+2024-05-15 09:59:10,791 | WARNING | No such comm: ce04cf68-1e23-45d6-b223-a5de91ba43f9
+2024-05-15 09:59:10,791 | WARNING | No such comm: ce04cf68-1e23-45d6-b223-a5de91ba43f9
+2024-05-15 09:59:10,792 | DEBUG | Current comms: []
+2024-05-15 09:59:10,792 | DEBUG | Current comms: []
+2024-05-15 09:59:10,792 | DEBUG | Current comms: []
+2024-05-15 09:59:26,071 | INFO | trying to export the document
+2024-05-15 09:59:26,071 | INFO | trying to export the document
+2024-05-15 09:59:26,071 | INFO | trying to export the document
+2024-05-15 09:59:26,075 | INFO | trying to connet to server.. 
+2024-05-15 09:59:26,075 | INFO | trying to connet to server.. 
+2024-05-15 09:59:26,075 | INFO | trying to connet to server.. 
+2024-05-15 09:59:34,233 | DEBUG | Connection successful
+2024-05-15 09:59:34,233 | DEBUG | Connection successful
+2024-05-15 09:59:34,233 | DEBUG | Connection successful
+2024-05-15 09:59:34,235 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}}
+2024-05-15 09:59:34,235 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}}
+2024-05-15 09:59:34,235 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}}
+2024-05-15 09:59:34,236 | INFO | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "remainingTimeMS": 29}
+2024-05-15 09:59:34,236 | INFO | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "remainingTimeMS": 29}
+2024-05-15 09:59:34,236 | INFO | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "remainingTimeMS": 29}
+2024-05-15 09:59:34,521 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:34,521 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:34,521 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:34,525 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:34,525 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:34,525 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:34,529 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:34,532 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:34,529 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:34,529 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:34,532 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:34,532 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:34,537 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:34,537 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:34,537 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:34,539 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:34,539 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:34,539 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:34,550 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:34,550 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:34,550 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:34,552 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:34,552 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:34,552 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:34,553 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:34,553 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:34,553 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:34,683 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:59:34,683 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:59:34,684 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:59:34,684 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:59:34,683 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:59:34,684 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:59:34,684 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:59:34,684 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:59:34,684 | DEBUG | Starting new HTTP connection (1): r3.o.lencr.org:80
+2024-05-15 09:59:34,826 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:59:34,826 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:59:34,826 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:59:34,834 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:59:34,834 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:59:34,834 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:59:34,838 | DEBUG | Verifying response
+2024-05-15 09:59:34,838 | DEBUG | Verifying response
+2024-05-15 09:59:34,840 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:59:34,838 | DEBUG | Verifying response
+2024-05-15 09:59:34,840 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:59:34,840 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:59:34,840 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:59:34,840 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:59:34,841 | DEBUG | Responder is issuer
+2024-05-15 09:59:34,840 | DEBUG | http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2024-05-15 09:59:34,843 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:59:34,841 | DEBUG | Responder is issuer
+2024-05-15 09:59:34,841 | DEBUG | Responder is issuer
+2024-05-15 09:59:34,843 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:59:34,844 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:59:34,843 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:59:34,844 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:59:34,845 | DEBUG | Caching OCSP response.
+2024-05-15 09:59:34,844 | DEBUG | OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2024-05-15 09:59:34,847 | DEBUG | Verifying response
+2024-05-15 09:59:34,845 | DEBUG | Caching OCSP response.
+2024-05-15 09:59:34,847 | DEBUG | Verifying response
+2024-05-15 09:59:34,845 | DEBUG | Caching OCSP response.
+2024-05-15 09:59:34,847 | DEBUG | Verifying response
+2024-05-15 09:59:34,847 | DEBUG | Verifying response
+2024-05-15 09:59:34,847 | DEBUG | Verifying response
+2024-05-15 09:59:34,849 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:34,849 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:34,851 | DEBUG | Responder is issuer
+2024-05-15 09:59:34,851 | DEBUG | Responder is issuer
+2024-05-15 09:59:34,847 | DEBUG | Verifying response
+2024-05-15 09:59:34,853 | DEBUG | Responder is issuer
+2024-05-15 09:59:34,849 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:34,853 | DEBUG | Responder is issuer
+2024-05-15 09:59:34,851 | DEBUG | Responder is issuer
+2024-05-15 09:59:34,857 | DEBUG | Caching OCSP response.
+2024-05-15 09:59:34,853 | DEBUG | Responder is issuer
+2024-05-15 09:59:34,858 | DEBUG | Caching OCSP response.
+2024-05-15 09:59:34,857 | DEBUG | Caching OCSP response.
+2024-05-15 09:59:34,858 | DEBUG | Caching OCSP response.
+2024-05-15 09:59:34,857 | DEBUG | Caching OCSP response.
+2024-05-15 09:59:34,858 | DEBUG | Caching OCSP response.
+2024-05-15 09:59:34,860 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:34,861 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:34,860 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:34,861 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:34,860 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:34,861 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:34,910 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.04426916599913966>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.03320079199693282>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:34,910 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.04426916599913966>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.03320079199693282>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:34,910 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.04426916599913966>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.03320079199693282>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,001 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:35,001 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:35,001 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:35,003 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:35,003 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:35,003 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:35,004 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:35,004 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:35,004 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:35,006 | DEBUG | Using cached OCSP response.
+2024-05-15 09:59:35,006 | DEBUG | Using cached OCSP response.
+2024-05-15 09:59:35,006 | DEBUG | Using cached OCSP response.
+2024-05-15 09:59:35,007 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:35,007 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:35,007 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:35,012 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:35,012 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:35,012 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:35,015 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:35,015 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:35,017 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:35,015 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:35,017 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:35,017 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:35,017 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:35,017 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:35,019 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:35,019 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:35,017 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:35,020 | DEBUG | Using cached OCSP response.
+2024-05-15 09:59:35,019 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:35,020 | DEBUG | Using cached OCSP response.
+2024-05-15 09:59:35,021 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:35,020 | DEBUG | Using cached OCSP response.
+2024-05-15 09:59:35,022 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:35,021 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:35,022 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:35,021 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:35,023 | DEBUG | Using cached OCSP response.
+2024-05-15 09:59:35,022 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:35,023 | DEBUG | Using cached OCSP response.
+2024-05-15 09:59:35,023 | DEBUG | Using cached OCSP response.
+2024-05-15 09:59:35,025 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:35,025 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:35,025 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:35,029 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:35,029 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:35,029 | DEBUG | Peer did not staple an OCSP response
+2024-05-15 09:59:35,030 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:35,030 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:35,030 | DEBUG | Requesting OCSP data
+2024-05-15 09:59:35,031 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:35,031 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:35,031 | DEBUG | Trying http://r3.o.lencr.org
+2024-05-15 09:59:35,033 | DEBUG | Using cached OCSP response.
+2024-05-15 09:59:35,033 | DEBUG | Using cached OCSP response.
+2024-05-15 09:59:35,033 | DEBUG | Using cached OCSP response.
+2024-05-15 09:59:35,034 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:35,034 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:35,034 | DEBUG | OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2024-05-15 09:59:35,169 | DEBUG | {"clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"6ghXbTArQVSCGoBBnzhxeA==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715747374, \"i\": 11}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"paynyeUolpgI76MvpTmw3d5Fcik=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1461885895, "operationId": 1461885895, "driverConnectionId": 1, "serverConnectionId": 23732, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,169 | DEBUG | {"clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"6ghXbTArQVSCGoBBnzhxeA==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715747374, \"i\": 11}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"paynyeUolpgI76MvpTmw3d5Fcik=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1461885895, "operationId": 1461885895, "driverConnectionId": 1, "serverConnectionId": 23732, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,169 | DEBUG | {"clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"6ghXbTArQVSCGoBBnzhxeA==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715747374, \"i\": 11}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"paynyeUolpgI76MvpTmw3d5Fcik=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1461885895, "operationId": 1461885895, "driverConnectionId": 1, "serverConnectionId": 23732, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,219 | DEBUG | {"clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "message": "Command succeeded", "durationMS": 49.973, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 3}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"igvqxSiuHbiK8NbD/vecpy46Cug=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 3}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1461885895, "operationId": 1461885895, "driverConnectionId": 1, "serverConnectionId": 23732, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,219 | DEBUG | {"clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "message": "Command succeeded", "durationMS": 49.973, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 3}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"igvqxSiuHbiK8NbD/vecpy46Cug=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 3}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1461885895, "operationId": 1461885895, "driverConnectionId": 1, "serverConnectionId": 23732, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,219 | DEBUG | {"clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "message": "Command succeeded", "durationMS": 49.973, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 3}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"igvqxSiuHbiK8NbD/vecpy46Cug=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 3}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 1461885895, "operationId": 1461885895, "driverConnectionId": 1, "serverConnectionId": 23732, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,223 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.045396750003419584>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.04426916599913966>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.03320079199693282>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}}
+2024-05-15 09:59:35,223 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.045396750003419584>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.04426916599913966>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.03320079199693282>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}}
+2024-05-15 09:59:35,223 | DEBUG | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.045396750003419584>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.04426916599913966>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.03320079199693282>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}}
+2024-05-15 09:59:35,226 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.045396750003419584>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.04426916599913966>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.03320079199693282>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,226 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.045396750003419584>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.04426916599913966>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.03320079199693282>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,226 | DEBUG | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 66443a2e6b2599d545e272b4, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-txqwiap-shard-00-00.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.045396750003419584>, <ServerDescription ('ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.04426916599913966>, <ServerDescription ('ac-txqwiap-shard-00-02.uvwhbzu.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.03320079199693282>]>", "clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,228 | DEBUG | {"clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"6ghXbTArQVSCGoBBnzhxeA==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 3}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"igvqxSiuHbiK8NbD/vecpy46Cug=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 555831938, "operationId": 555831938, "driverConnectionId": 1, "serverConnectionId": 23732, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,228 | DEBUG | {"clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"6ghXbTArQVSCGoBBnzhxeA==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 3}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"igvqxSiuHbiK8NbD/vecpy46Cug=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 555831938, "operationId": 555831938, "driverConnectionId": 1, "serverConnectionId": 23732, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,228 | DEBUG | {"clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "message": "Command started", "command": "{\"find\": \"FSDS\", \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"6ghXbTArQVSCGoBBnzhxeA==\", \"subType\": \"04\"}}}, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 3}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"igvqxSiuHbiK8NbD/vecpy46Cug=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"$db\": \"iNeuron\"}", "commandName": "find", "databaseName": "iNeuron", "requestId": 555831938, "operationId": 555831938, "driverConnectionId": 1, "serverConnectionId": 23732, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,270 | DEBUG | {"clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "message": "Command succeeded", "durationMS": 41.241, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"igvqxSiuHbiK8NbD/vecpy46Cug=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 5}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 555831938, "operationId": 555831938, "driverConnectionId": 1, "serverConnectionId": 23732, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,270 | DEBUG | {"clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "message": "Command succeeded", "durationMS": 41.241, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"igvqxSiuHbiK8NbD/vecpy46Cug=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 5}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 555831938, "operationId": 555831938, "driverConnectionId": 1, "serverConnectionId": 23732, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,270 | DEBUG | {"clientId": {"$oid": "66443a2e6b2599d545e272b4"}, "message": "Command succeeded", "durationMS": 41.241, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6643687a844b9a0915337040\"}, \"name\": \"Sneha Lohia\", \"age\": 34, \"course_name\": \"Python\", \"course_duration\": \"6 months\"}], \"ns\": \"iNeuron.FSDS\"}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 5}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"igvqxSiuHbiK8NbD/vecpy46Cug=\", \"subType\": \"00\"}}, \"keyId\": 7319900259923001350}}, \"operationTime\": {\"$timestamp\": {\"t\": 1715747375, \"i\": 5}}}", "commandName": "find", "databaseName": "iNeuron", "requestId": 555831938, "operationId": 555831938, "driverConnectionId": 1, "serverConnectionId": 23732, "serverHost": "ac-txqwiap-shard-00-01.uvwhbzu.mongodb.net", "serverPort": 27017}
+2024-05-15 09:59:35,274 | INFO | Export completed successfully
+2024-05-15 09:59:35,274 | INFO | Export completed successfully
+2024-05-15 09:59:35,274 | INFO | Export completed successfully
